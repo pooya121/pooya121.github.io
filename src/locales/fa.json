@@ -1,0 +1,195 @@
+{ 
+  "lang":"fa",
+  "dir":"rtl",
+  "darkThemeLabel": "تم تاریک",
+  "lightThemeLabel": "تم روشن",
+  "page":{ 
+    "title":"💻 پویا بدیعی",
+    "description":"پویا بدیعی, برنامه نویس فرانت"
+  },
+  "header":{ 
+    "title":"پویا بدیعی",
+    "subTitle":"برنامه نویس فرانت",
+    "viewOnGithub":{ 
+      "title":"مشاهده در گیت هاب",
+      "url":"https://pooya121.github.io/"
+    }
+  },
+  "personalInfo":{ 
+    "title":"مشخصات",
+    "imageUrl":"/images/pooya.jpg",
+    "birthDate":{ 
+      "label":"تولد",
+      "value":"۱۳۷۶/۷/۲۴"
+    },
+    "education":{ 
+      "label":"تحصیلات",
+      "value":"دیپلم ریاضی"
+    },
+    "militaryService":{ 
+      "label":"سربازی",
+      "value":"معاف"
+    },
+    "location":{ 
+      "label":"آدرس",
+      "value":"تهران, صادقیه"
+    },
+    "email":{ 
+      "label":"ایمیل",
+      "value":"pooya.badiee76@gmail.com"
+    },
+    "phoneNumber":{ 
+      "label":"شماره همراه",
+      "value":"+989331005618"
+    }
+  },
+  "skills":{ 
+    "title":"مهارت ها",
+    "items":[ 
+      { 
+        "title":"JavaScript-ES2019",
+        "status":"پیشرفته"
+      },
+      { 
+        "title":"Typescript",
+        "status":"پیشرفته"
+      },
+      { 
+        "title":"React",
+        "status":"پیشرفته"
+      },
+      { 
+        "title":"Mobx",
+        "status":"پیشرفته"
+      },
+      { 
+        "title":"HTML / CSS",
+        "status":"پیشرفته"
+      },
+      { 
+        "title":"SASS",
+        "status":"پیشرفته"
+      },
+      { 
+        "title":"jQuery",
+        "status":"پیشرفته"
+      },
+      { 
+        "title":"CSS frameworks ",
+        "status":"پیشرفته"
+      },
+      { 
+        "title":"NextJs",
+        "status":"متوسط"
+      },
+      { 
+        "title":"Git",
+        "status":"متوسط"
+      },
+      { 
+        "title":"Redux",
+        "status":"متوسط"
+      },
+      { 
+        "title":"GraphQL",
+        "status":"متوسط"
+      },
+      { 
+        "title":"Scrum",
+        "status":"متوسط"
+      },
+      { 
+        "title":"Nodejs",
+        "status":"متوسط"
+      }
+    ]
+  },
+  "experience":{ 
+    "title":"تجربه",
+    "galleryButtonLabel":"گالری",
+    "items":[ 
+      { 
+        "name":"برایند",
+        "url":"http://barayand.net/",
+        "role":"برنامه نویس فرانت",
+        "startDate":"۱۳۹۶/۲/۸",
+        "endDate":"۱۳۹۷/۸/۳",
+        "images":[ 
+          { 
+            "src":"/images/barayand/yasrebi.png"
+          },
+          { 
+            "src":"/images/barayand/victoria.png"
+          },
+          { 
+            "src":"/images/barayand/veka.png"
+          },
+          { 
+            "src":"/images/barayand/alhamraco.png"
+          },
+          { 
+            "src":"/images/barayand/kankash.png"
+          },
+          { 
+            "src":"/images/barayand/tarheaval.png"
+          }
+        ]
+      },
+      { 
+        "name":"یگانه",
+        "url":"https://yeganehsoft.com/",
+        "role":"برنامه نویس React",
+        "startDate":"۱۳۹۷/۸/۲۷",
+        "endDate":"۱۳۹۸/۱۲/۲۹",
+        "images":[ 
+          { 
+            "src":"/images/yeganeh/1.png"
+          },
+          { 
+            "src":"/images/yeganeh/2.png"
+          },
+          { 
+            "src":"/images/yeganeh/3.png"
+          },
+          { 
+            "src":"/images/yeganeh/old-1.png"
+          },
+          { 
+            "src":"/images/yeganeh/edms-1.png"
+          },
+          { 
+            "src":"/images/yeganeh/edms-2.png"
+          },
+          { 
+            "src":"/images/yeganeh/edms-3.png"
+          }
+        ]
+      }
+    ]
+  },
+  "profiles":{ 
+    "title":"پروفایل ها",
+    "items":[
+      { 
+        "id":"linkedin",
+        "name":"لینکدین",
+        "url":"https://www.linkedin.com/in/pooya-badiee-01104318b"
+      },
+      { 
+        "id":"telegram",
+        "name":"تلگرام",
+        "url":"https://t.me/pooya_121"
+      },
+      { 
+        "id": "twitter",
+        "name": "توییتر",
+        "url":"https://twitter.com/pooya_121"
+      },
+      { 
+        "id":"instagram",
+        "name":"اینستاگرام",
+        "url":"https://www.instagram.com/pooya__bd"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "files.exclude": {
+    "**/node_modules": true,
+    "now.json": true,
+    "package.lock.json": true,
+    "bundles": true
+  },
+  "eslint.enable": true,
+}
