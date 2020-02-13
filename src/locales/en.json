@@ -18,8 +18,8 @@
   "personalInfo":{ 
     "title":"Personal Info",
     "imageUrl":"/images/pooya.jpg",
-    "birthDate":{ 
-      "label":"BirthDate",
+    "birthdate":{ 
+      "label":"Birthdate",
       "value":"1997/10/16"
     },
     "education":{ 
@@ -39,7 +39,7 @@
       "value":"pooya.badiee76@gmail.com"
     },
     "phoneNumber":{ 
-      "label":"mobile",
+      "label":"Mobile",
       "value":"+989331005618"
     }
   },

@@ -25,8 +25,8 @@ const PersonalInfoSection: React.FC<Props> = () => {
         <InfoList>
           <InfoItem
             index={1}
-            itemKey={personalInfo.birthDate.label}
-            itemValue={personalInfo.birthDate.value}
+            itemKey={personalInfo.birthdate.label}
+            itemValue={personalInfo.birthdate.value}
           />
           <InfoItem
             index={2}

@@ -49,7 +49,7 @@ interface Page {
 interface PersonalInfo {
   title: string
   imageUrl: string
-  birthDate: ValueLabel
+  birthdate: ValueLabel
   education: ValueLabel
   militaryService: ValueLabel
   location: ValueLabel

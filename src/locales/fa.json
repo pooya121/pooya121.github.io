@@ -18,7 +18,7 @@
   "personalInfo":{ 
     "title":"مشخصات",
     "imageUrl":"/images/pooya.jpg",
-    "birthDate":{ 
+    "birthdate":{ 
       "label":"تولد",
       "value":"۱۳۷۶/۷/۲۴"
     },
@@ -109,7 +109,7 @@
     "galleryButtonLabel":"گالری",
     "items":[ 
       { 
-        "name":"برایند",
+        "name":"برآیند",
         "url":"http://barayand.net/",
         "role":"برنامه نویس فرانت",
         "startDate":"۱۳۹۶/۲/۸",
