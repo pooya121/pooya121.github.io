@@ -5,11 +5,11 @@
   "lightThemeLabel": "Light Theme",
   "page":{ 
     "title":"Pooya Badiee 💻",
-    "description":"Pooya Badiee, a front end developer"
+    "description":"Pooya Badiee, a front-end developer"
   },
   "header":{ 
     "title":"Pooya Badiee",
-    "subTitle":"Front End Developer",
+    "subTitle":"Front-End Developer",
     "viewOnGithub":{ 
       "title":"View on github ",
       "url":"https://github.com/pooya121/pooya121.github.io"
@@ -19,7 +19,7 @@
     "title":"Personal Info",
     "imageUrl":"/images/pooya.jpg",
     "birthDate":{ 
-      "label":"Birth date",
+      "label":"BirthDate",
       "value":"1997/10/16"
     },
     "education":{ 
@@ -32,14 +32,14 @@
     },
     "location":{ 
       "label":"Location",
-      "value":"Tehran, Sadeghie"
+      "value":"Tehran, Ferdos blvd"
     },
     "email":{ 
       "label":"Email",
       "value":"pooya.badiee76@gmail.com"
     },
     "phoneNumber":{ 
-      "label":"Phone Number",
+      "label":"mobile",
       "value":"+989331005618"
     }
   },
@@ -51,7 +51,7 @@
         "status":"advanced"
       },
       { 
-        "title":"Typescript",
+        "title":"TypeScript",
         "status":"advanced"
       },
       { 
@@ -79,7 +79,7 @@
         "status":"advanced"
       },
       { 
-        "title":"NextJs",
+        "title":"Next.js",
         "status":"intermediate"
       },
       { 
@@ -99,19 +99,19 @@
         "status":"intermediate"
       },
       { 
-        "title":"Nodejs",
+        "title":"Node.js",
         "status":"intermediate"
       }
     ]
   },
   "experience":{ 
     "title":"Experience",
-    "galleryButtonLabel":"gallery",
+    "galleryButtonLabel":"Gallery",
     "items":[ 
       { 
         "name":"Barayand",
         "url":"http://barayand.net/",
-        "role":"Front End Developer",
+        "role":"Front-END Developer",
         "startDate":"2017/4/30",
         "endDate":"2018/10/1",
         "images":[ 
@@ -138,7 +138,7 @@
       { 
         "name":"Yeganeh",
         "url":"https://yeganehsoft.com/",
-        "role":"Front End React Developer",
+        "role":"Front-END React Developer",
         "startDate":"2018/11/19",
         "endDate":"2020/2/19",
         "images":[ 

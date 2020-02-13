@@ -32,14 +32,14 @@
     },
     "location":{ 
       "label":"آدرس",
-      "value":"تهران, صادقیه"
+      "value":"تهران, بلوار فردوس"
     },
     "email":{ 
       "label":"ایمیل",
       "value":"pooya.badiee76@gmail.com"
     },
     "phoneNumber":{ 
-      "label":"شماره همراه",
+      "label":"موبایل",
       "value":"+989331005618"
     }
   },
@@ -51,7 +51,7 @@
         "status":"پیشرفته"
       },
       { 
-        "title":"Typescript",
+        "title":"TypeScript",
         "status":"پیشرفته"
       },
       { 
@@ -79,7 +79,7 @@
         "status":"پیشرفته"
       },
       { 
-        "title":"NextJs",
+        "title":"Next.js",
         "status":"متوسط"
       },
       { 
@@ -99,7 +99,7 @@
         "status":"متوسط"
       },
       { 
-        "title":"Nodejs",
+        "title":"Node.js",
         "status":"متوسط"
       }
     ]
