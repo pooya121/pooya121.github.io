@@ -15884,7 +15884,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Pooya\\Desktop\\pooya121.github.io\\source\\pages\\_app.tsx";
+var _jsxFileName = "C:\\Users\\pooya\\Desktop\\Resume\\source\\pages\\_app.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_14___default.a.createElement;
 
@@ -16039,7 +16039,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.browser.esm.js");
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/styles */ "./src/styles/index.ts");
-var _jsxFileName = "C:\\Users\\Pooya\\Desktop\\pooya121.github.io\\source\\src\\components\\global-styles.tsx";
+var _jsxFileName = "C:\\Users\\pooya\\Desktop\\Resume\\source\\src\\components\\global-styles.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -16112,7 +16112,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Pooya\\Desktop\\pooya121.github.io\\source\\src\\components\\theme-providor.tsx";
+var _jsxFileName = "C:\\Users\\pooya\\Desktop\\Resume\\source\\src\\components\\theme-providor.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
@@ -16439,7 +16439,7 @@ var useTheme = emotion_theming__WEBPACK_IMPORTED_MODULE_1__["useTheme"];
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx!./");
-module.exports = __webpack_require__(/*! C:\Users\Pooya\Desktop\pooya121.github.io\source\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! C:\Users\pooya\Desktop\Resume\source\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),
