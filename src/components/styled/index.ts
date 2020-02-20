@@ -12,10 +12,10 @@ export const getAnchorStyles = (theme: EmotionThemeModel) => ({
   ':hover': {
     color: theme.colors.primaryAlt,
     textDecoration: 'underline'
-  },
-  '@media print': {
-    color: 'inherit'
   }
+  // '@media print': {
+  //   color: 'inherit'
+  // }
 })
 
 export const Anchor = styled.a(({ theme }) => getAnchorStyles(theme))

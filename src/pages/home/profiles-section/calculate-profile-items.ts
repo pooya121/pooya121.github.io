@@ -1,4 +1,4 @@
-import { IconType, TwitterIcon, TelegramIcon, LinkedinIcon, InstagramIcon } from '@/icons'
+import { IconType, TwitterIcon, TelegramIcon, LinkedinIcon } from '@/icons'
 
 interface ProfileItem {
   url: string
@@ -18,8 +18,8 @@ const calculateProfileItems = (
           return TwitterIcon
         case 'linkedin':
           return LinkedinIcon
-        case 'instagram':
-          return InstagramIcon
+        // case 'instagram':
+        //   return InstagramIcon
         default:
           return TwitterIcon
       }

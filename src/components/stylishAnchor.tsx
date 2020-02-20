@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
 import { styled } from '@/styles'
 import { getButtonStyles } from './stylish-button/styles'
@@ -10,8 +10,6 @@ type HTMLAnchorProps = React.DetailedHTMLProps<
   HTMLAnchorElement
 >
 
-const StylishAnchor: React.FC<HTMLAnchorProps> = props => {
-  return <Anchor {...props} />
-}
-
-export default StylishAnchor
+export default forwardRef<HTMLAnchorElement, HTMLAnchorProps>(function StylishAnchor(props, ref) {
+  return <Anchor {...props} ref={ref} />
+})

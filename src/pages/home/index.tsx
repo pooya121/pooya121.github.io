@@ -1,7 +1,7 @@
 import { Container } from '@/components/styled'
 import Heads from '@/components/heads'
 
-import HomeHeader from './home-header/home-header'
+import HomeHeader from './home-header'
 import SkillsSection from './skills-section'
 import XpSection from './xp-section'
 import PersonalInfoSection from './personal-info-section'

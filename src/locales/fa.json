@@ -101,6 +101,10 @@
       { 
         "title":"Node.js",
         "status":"متوسط"
+      },
+      { 
+        "title":"React Native",
+        "status":"مبتدی"
       }
     ]
   },
@@ -184,11 +188,6 @@
         "id": "twitter",
         "name": "توییتر",
         "url":"https://twitter.com/pooya_121"
-      },
-      { 
-        "id":"instagram",
-        "name":"اینستاگرام",
-        "url":"https://www.instagram.com/pooya__bd"
       }
     ]
   }
