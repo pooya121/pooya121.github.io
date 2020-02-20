@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "url": "/_next/static/K6v432zt0bCHu-CS-PofB/_buildManifest.js",
-    "revision": "73c68d4056b428cddaa76efe5bbff56b"
-  },
-  {
-    "url": "/_next/static/chunks/8d9c7be176670de5436e71760c72386fa5d73a64.625cb45ccdad77ff2f65.js",
-    "revision": "0d5a628a01172b1063eb"
-  },
-  {
-    "url": "/_next/static/chunks/8fb73c616d7f22377be81a539c086fd621c43e36.8e9056e8304d89512c7f.js",
-    "revision": "1091c28cbbf72d42ff04"
+    "url": "/_next/static/HIDvZqEllTLP0zBHzseeS/_buildManifest.js",
+    "revision": "926fcfb7931d03624a9a4b3e814f4122"
   },
   {
     "url": "/_next/static/chunks/commons.0ee7cdbf067251d2ef89.js",
     "revision": "08baf799f1258fd9272c"
+  },
+  {
+    "url": "/_next/static/chunks/d7acd9afa3c45480642a9ec28613f9131dfb9301.139d2676227d7015a711.js",
+    "revision": "94c1ef3a98c5fa0e1922"
+  },
+  {
+    "url": "/_next/static/chunks/fa68c6f3778443542bfd774fefd5b9df49fec964.b936349e6c585aa1479b.js",
+    "revision": "16705a0e8ab0ddbee5ef"
   },
   {
     "url": "/_next/static/chunks/framework.74d547792b3163b4d6d2.js",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "revision": "9a3a7fadc7507dc82d64"
   },
   {
-    "url": "/_next/static/css/8d9c7be176670de5436e71760c72386fa5d73a64.e8dc5114.chunk.css",
-    "revision": "0d5a628a01172b1063eb"
+    "url": "/_next/static/css/fa68c6f3778443542bfd774fefd5b9df49fec964.e8dc5114.chunk.css",
+    "revision": "16705a0e8ab0ddbee5ef"
   },
   {
     "url": "/_next/static/css/styles.f4a0f231.chunk.css",
@@ -44,20 +44,20 @@ self.__precacheManifest = [
     "revision": "71726f334912f74c262a"
   },
   {
-    "url": "/_next/static\\K6v432zt0bCHu-CS-PofB\\pages\\_app.js",
-    "revision": "1a5dd5af128e393a4af4"
+    "url": "/_next/static\\HIDvZqEllTLP0zBHzseeS\\pages\\_app.js",
+    "revision": "161fd2412da322aa9a0e"
   },
   {
-    "url": "/_next/static\\K6v432zt0bCHu-CS-PofB\\pages\\_error.js",
-    "revision": "8be653faafec598b8def"
+    "url": "/_next/static\\HIDvZqEllTLP0zBHzseeS\\pages\\_error.js",
+    "revision": "ed858513a7f647a73f84"
   },
   {
-    "url": "/_next/static\\K6v432zt0bCHu-CS-PofB\\pages\\fa.js",
-    "revision": "132350501508785f043e"
+    "url": "/_next/static\\HIDvZqEllTLP0zBHzseeS\\pages\\fa.js",
+    "revision": "b7805cc96353b73d76cf"
   },
   {
-    "url": "/_next/static\\K6v432zt0bCHu-CS-PofB\\pages\\index.js",
-    "revision": "bdb5b8bc99fe45d8f8f7"
+    "url": "/_next/static\\HIDvZqEllTLP0zBHzseeS\\pages\\index.js",
+    "revision": "6680c1de6eaf9e2129c3"
   }
 ];
 
