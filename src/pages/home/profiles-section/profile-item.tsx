@@ -8,6 +8,7 @@ import {
 } from './styles'
 import { useMemo, useRef, useState } from 'react'
 import { useSpring, useChain } from 'react-spring'
+import { useFormatedUrl } from '@/util/hooks'
 
 interface Props {
   children?: never
@@ -20,10 +21,7 @@ interface Props {
 const ProfileItem: React.FC<Props> = ({ url, icon: Icon, name, index }) => {
   const delay = useMemo(() => 2500 + index * 200, [index])
   const [areSpringsFinished, setAreSpringsFinished] = useState(false)
-  const formatedUrl = useMemo(() => {
-    const newUrl = url.replace('https://', '').replace('www.', '')
-    return newUrl
-  }, [url])
+  const formatedUrl = useFormatedUrl(url)
   const iconSpringRef = useRef(undefined as any)
   const nameSpringRef = useRef(undefined as any)
   const anchorSpringRef = useRef(undefined as any)

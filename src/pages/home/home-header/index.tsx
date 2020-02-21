@@ -74,9 +74,9 @@ const HomeHeader: React.FC<Props> = () => {
               </StylishAnchor>
             </Link>
             <ThemeToggle />
-            {/* WebsiteAnchor will be rendered on print */}
           </div>
-          <WebsiteAnchor />
+          {/* WebsiteAnchor will be rendered on print */}
+          {/* <WebsiteAnchor /> */}
         </animated.div>
         <GithubAnchor style={anchorStyle} href={header.viewOnGithub.url}>
           {header.viewOnGithub.title} <StyledGithubIcon />

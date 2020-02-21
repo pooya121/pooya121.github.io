@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useMemo } from 'react'
 import { useSelector } from 'react-redux'
 
 type StoreState = import('@/store').StoreState
@@ -16,3 +16,9 @@ export function useLocale() {
   const locale = useSelector((state: StoreState) => state.locale)
   return locale
 }
+
+export const useFormatedUrl = (url: string) =>
+  useMemo(() => {
+    const newUrl = url.replace('https://', '').replace('www.', '')
+    return newUrl
+  }, [url])

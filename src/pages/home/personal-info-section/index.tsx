@@ -4,14 +4,13 @@ import InfoItem from './info-item'
 import { InfoList } from './styles'
 import ImageBox from './image-box'
 import { useLocale } from '@/util/hooks'
-import { translateNumbers } from '@/util'
 
 interface Props {
   children?: never
 }
 
 const PersonalInfoSection: React.FC<Props> = () => {
-  const { personalInfo, lang } = useLocale()
+  const { personalInfo } = useLocale()
   return (
     <HomeSectionLayout index={0}>
       <NumberedHeading index={0}>{personalInfo.title}</NumberedHeading>
@@ -52,7 +51,7 @@ const PersonalInfoSection: React.FC<Props> = () => {
           <InfoItem
             index={6}
             itemKey={personalInfo.phoneNumber.label}
-            itemValue={translateNumbers(personalInfo.phoneNumber.value, lang)}
+            itemValue={personalInfo.phoneNumber.formatedValue}
             href={`tel:${personalInfo.phoneNumber.value}`}
             ltr
           />

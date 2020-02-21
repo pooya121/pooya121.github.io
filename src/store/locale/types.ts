@@ -54,7 +54,7 @@ interface PersonalInfo {
   militaryService: ValueLabel
   location: ValueLabel
   email: ValueLabel
-  phoneNumber: ValueLabel
+  phoneNumber: ValueLabel & { formatedValue: string }
 }
 
 interface ValueLabel {
@@ -64,6 +64,7 @@ interface ValueLabel {
 
 interface Profiles {
   title: string
+  website: ProfilesItem
   items: ProfilesItem[]
 }
 

@@ -11,7 +11,7 @@
     "title":"Pooya Badiee",
     "subTitle":"Front-End Developer",
     "viewOnGithub":{ 
-      "title":"View on github ",
+      "title":"View on GitHub ",
       "url":"https://github.com/pooya121/pooya121.github.io"
     }
   },
@@ -40,7 +40,8 @@
     },
     "phoneNumber":{ 
       "label":"Mobile",
-      "value":"+989331005618"
+      "value":"+989331005618",
+      "formatedValue": "+989331005618"
     }
   },
   "skills":{ 
@@ -173,6 +174,11 @@
   },
   "profiles":{ 
     "title":"Profiles",
+    "website": {
+      "id": "website",
+      "name": "website",
+      "url": "https://pooya121.github.io/"
+    },
     "items":[ 
       { 
         "id":"linkedin",

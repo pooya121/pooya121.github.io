@@ -2,7 +2,7 @@ import { styled } from '@/styles'
 import { Anchor } from '@/components/styled'
 import { animated } from 'react-spring'
 
-export const ProfileListItem = styled.li<{ 'data-disable-actions': boolean }>(
+export const ProfileListItem = styled.li<{ 'data-disable-actions'?: boolean }>(
   ({ 'data-disable-actions': disableActions }) => ({
     listStyle: 'none',
     display: 'flex',
