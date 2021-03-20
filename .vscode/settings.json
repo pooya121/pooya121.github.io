@@ -1,3 +1,15 @@
 {
-  "cSpell.words": ["clsx"]
+  "cSpell.words": ["clsx"],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.module.scss.d.ts": true,
+    "node_modules": true,
+    ".next": true,
+    "out": true,
+    ".vscode": true
+  }
 }
