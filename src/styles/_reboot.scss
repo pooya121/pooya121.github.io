@@ -1,0 +1,30 @@
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: var(--primary-color);
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+dl,
+dd,
+dt {
+  margin: 0;
+}

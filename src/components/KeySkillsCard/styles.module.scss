@@ -1,0 +1,19 @@
+.root {
+  grid-area: key-skills;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.25rem;
+  padding: 0;
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--text-secondary-color);
+  li {
+    list-style: none;
+    &::before {
+      content: "- ";
+    }
+  }
+}

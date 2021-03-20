@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #2196f3;
+  --text-secondary-color: rgba(255, 255, 255, 0.7);
+  --text-primary-color: #fff;
+  --background-color: #212121;
+  --box-background: #424242;
+  --box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 1px 3px 0 rgb(0 0 0 / 12%);
+  @media (prefers-color-scheme: light) {
+    --text-primary-color: #333;
+    --text-secondary-color: rgba(0, 0, 0, 0.54);
+    --background-color: #fff;
+    --box-background: #fff;
+    --box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  }
+}
+
+body {
+  color: var(--text-primary-color);
+  background-color: var(--background-color);
+}

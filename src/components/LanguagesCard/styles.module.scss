@@ -1,0 +1,16 @@
+.root {
+  grid-area: languages;
+}
+
+.descriptionList {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 0 1rem;
+  font-size: 0.875rem;
+  dt::after {
+    content: ":";
+  }
+  dd {
+    color: var(--text-secondary-color);
+  }
+}
