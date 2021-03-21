@@ -1,7 +1,7 @@
 import { DataModel } from './type'
 
 export const data: DataModel = {
-  generalInfoCardData: {
+  generalInfo: {
     fullName: 'Pooya Badiee',
     formattedMobile: '+98 933 100 5618',
     skypeLabel: 'skype',
@@ -12,7 +12,7 @@ export const data: DataModel = {
     mobile: '+989331005618',
     jobPosition: 'Front-End Developer',
   },
-  keySkillsCardData: {
+  keySkills: {
     skills: [
       'TypeScript',
       'JavaScript',
@@ -38,7 +38,7 @@ export const data: DataModel = {
     ],
     title: 'Key skills',
   },
-  languagesCardData: {
+  languages: {
     title: 'Languages',
     languages: [
       { name: 'English', status: 'advance' },
@@ -46,7 +46,7 @@ export const data: DataModel = {
       { name: 'Farsi', status: 'native' },
     ],
   },
-  skillsSummaryCardData: {
+  skillsSummary: {
     title: 'Skills summary',
     points: [
       <>
@@ -79,7 +79,7 @@ export const data: DataModel = {
       </>,
     ],
   },
-  experienceCardData: {
+  experience: {
     items: [],
   },
 }

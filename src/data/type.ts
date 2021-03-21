@@ -5,9 +5,9 @@ import type { LanguagesCardData } from '@/components/LanguagesCard'
 import type { SkillsSummaryCardData } from '@/components/SkillsSummaryCard'
 
 export interface DataModel {
-  keySkillsCardData: KeySkillsCardData
-  generalInfoCardData: GeneralInfoCardData
-  languagesCardData: LanguagesCardData
-  skillsSummaryCardData: SkillsSummaryCardData
-  experienceCardData: ExperienceCardData
+  keySkills: KeySkillsCardData
+  generalInfo: GeneralInfoCardData
+  languages: LanguagesCardData
+  skillsSummary: SkillsSummaryCardData
+  experience: ExperienceCardData
 }

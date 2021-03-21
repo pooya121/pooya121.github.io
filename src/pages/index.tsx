@@ -1,3 +1,4 @@
+import type { NextPage } from 'next'
 import Container from '@/components/Container'
 import ExperienceCard from '@/components/ExperienceCard'
 import GeneralInfoCard from '@/components/GeneralInfoCard'
@@ -7,13 +8,13 @@ import SkillsSummaryCard from '@/components/SkillsSummaryCard'
 import { data } from '@/data/enData'
 import styles from '@/styles/home.module.scss'
 
-const IndexPage = () => (
+const IndexPage: NextPage = () => (
   <Container className={styles.root}>
-    <GeneralInfoCard data={data.generalInfoCardData} />
-    <KeySkillsCard data={data.keySkillsCardData} />
-    <LanguagesCard data={data.languagesCardData} />
-    <SkillsSummaryCard data={data.skillsSummaryCardData} />
-    <ExperienceCard data={data.experienceCardData} />
+    <GeneralInfoCard data={data.generalInfo} />
+    <KeySkillsCard data={data.keySkills} />
+    <LanguagesCard data={data.languages} />
+    <SkillsSummaryCard data={data.skillsSummary} />
+    <ExperienceCard data={data.experience} />
   </Container>
 )
 
