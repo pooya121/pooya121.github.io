@@ -1,23 +1,23 @@
-import { memo } from "react";
-import type { FC } from "react";
-import Card from "../Card";
-import styles from "./styles.module.scss";
+import { memo } from 'react'
+import type { FC } from 'react'
+import Card from '../Card'
+import styles from './styles.module.scss'
 
 export interface GeneralInfoCardData {
-  jobPosition: string;
-  fullName: string;
-  emailLabel: string;
-  email: string;
-  mobileLabel: string;
-  mobile: string;
-  formattedMobile: string;
-  skypeLabel: string;
-  skype: string;
+  jobPosition: string
+  fullName: string
+  emailLabel: string
+  email: string
+  mobileLabel: string
+  mobile: string
+  formattedMobile: string
+  skypeLabel: string
+  skype: string
 }
 
 interface GeneralInfoCardProps {
-  data: GeneralInfoCardData;
-  children?: never;
+  data: GeneralInfoCardData
+  children?: never
 }
 
 const GeneralInfoCard: FC<GeneralInfoCardProps> = ({ data }) => (
@@ -50,6 +50,6 @@ const GeneralInfoCard: FC<GeneralInfoCardProps> = ({ data }) => (
       alt=""
     />
   </Card>
-);
+)
 
-export default memo(GeneralInfoCard);
+export default memo(GeneralInfoCard)

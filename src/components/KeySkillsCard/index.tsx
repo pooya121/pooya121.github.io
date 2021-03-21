@@ -1,16 +1,16 @@
-import { Fragment, memo } from "react";
-import type { FC } from "react";
-import Card from "../Card";
-import styles from "./styles.module.scss";
+import { memo } from 'react'
+import type { FC } from 'react'
+import Card from '../Card'
+import styles from './styles.module.scss'
 
 export interface KeySkillsCardData {
-  title: string;
-  skills: string[];
+  title: string
+  skills: string[]
 }
 
 interface KeySkillsCardProps {
-  data: KeySkillsCardData;
-  children?: never;
+  data: KeySkillsCardData
+  children?: never
 }
 
 const KeySkillsCard: FC<KeySkillsCardProps> = ({ data }) => (
@@ -21,6 +21,6 @@ const KeySkillsCard: FC<KeySkillsCardProps> = ({ data }) => (
       ))}
     </ul>
   </Card>
-);
+)
 
-export default memo(KeySkillsCard);
+export default memo(KeySkillsCard)

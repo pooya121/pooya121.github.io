@@ -1,16 +1,16 @@
-import { ReactNode, memo } from "react";
-import type { FC } from "react";
-import Card from "../Card";
-import styles from "./styles.module.scss";
+import { ReactNode, memo } from 'react'
+import type { FC } from 'react'
+import Card from '../Card'
+import styles from './styles.module.scss'
 
 export interface SkillsSummaryCardData {
-  title: string;
-  points: ReactNode[];
+  title: string
+  points: ReactNode[]
 }
 
 interface SkillsSummaryCardProps {
-  data: SkillsSummaryCardData;
-  children?: never;
+  data: SkillsSummaryCardData
+  children?: never
 }
 
 const SkillsSummaryCard: FC<SkillsSummaryCardProps> = ({ data }) => (
@@ -21,6 +21,6 @@ const SkillsSummaryCard: FC<SkillsSummaryCardProps> = ({ data }) => (
       ))}
     </ul>
   </Card>
-);
+)
 
-export default memo(SkillsSummaryCard);
+export default memo(SkillsSummaryCard)

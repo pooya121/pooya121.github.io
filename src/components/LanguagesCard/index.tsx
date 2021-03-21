@@ -1,16 +1,16 @@
-import { Fragment, memo } from "react";
-import type { FC } from "react";
-import Card from "../Card";
-import styles from "./styles.module.scss";
+import { Fragment, memo } from 'react'
+import type { FC } from 'react'
+import Card from '../Card'
+import styles from './styles.module.scss'
 
 export interface LanguagesCardData {
-  title: string;
-  languages: { name: string; status: string }[];
+  title: string
+  languages: { name: string; status: string }[]
 }
 
 interface LanguagesCardProps {
-  data: LanguagesCardData;
-  children?: never;
+  data: LanguagesCardData
+  children?: never
 }
 
 const LanguagesCard: FC<LanguagesCardProps> = ({ data }) => (
@@ -24,6 +24,6 @@ const LanguagesCard: FC<LanguagesCardProps> = ({ data }) => (
       ))}
     </dl>
   </Card>
-);
+)
 
-export default memo(LanguagesCard);
+export default memo(LanguagesCard)

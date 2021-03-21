@@ -1,2 +1,2 @@
-export const descriptionList: string;
-export const root: string;
+export const descriptionList: string
+export const root: string
