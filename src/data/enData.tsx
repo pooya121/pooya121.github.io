@@ -79,4 +79,7 @@ export const data: DataModel = {
       </>,
     ],
   },
+  experienceCardData: {
+    items: [],
+  },
 }

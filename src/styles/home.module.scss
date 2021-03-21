@@ -3,7 +3,8 @@
   grid-template-areas:
     'general-info general-info'
     'key-skills skills-summary'
-    'languages skills-summary';
+    'languages skills-summary'
+    'experience experience';
   gap: 1rem;
   grid-template-columns: 35fr 65fr;
 }

@@ -1,3 +1,4 @@
+import type { ExperienceCardData } from '@/components/ExperienceCard'
 import type { GeneralInfoCardData } from '@/components/GeneralInfoCard'
 import type { KeySkillsCardData } from '@/components/KeySkillsCard'
 import type { LanguagesCardData } from '@/components/LanguagesCard'
@@ -8,4 +9,5 @@ export interface DataModel {
   generalInfoCardData: GeneralInfoCardData
   languagesCardData: LanguagesCardData
   skillsSummaryCardData: SkillsSummaryCardData
+  experienceCardData: ExperienceCardData
 }
