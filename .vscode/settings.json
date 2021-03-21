@@ -11,6 +11,7 @@
     "node_modules": true,
     ".next": true,
     "out": true,
-    ".vscode": true
+    ".vscode": true,
+    ".eslintcache": true
   }
 }
