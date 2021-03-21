@@ -1,4 +1,9 @@
 {
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "parser": "@typescript-eslint/parser",
   "root": true,
   "plugins": ["@typescript-eslint", "react-hooks"],
@@ -18,6 +23,7 @@
     "**/*.module.scss.d.ts"
   ],
   "rules": {
+    "react/self-closing-comp": "warn",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off"

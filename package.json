@@ -9,7 +9,7 @@
     "export": "next export",
     "start": "next start",
     "tsm:watch": "tsm src -w -L silent",
-    "fix": "concurrently \"eslint --fix src\" \"prettier --write src\"",
+    "fix": "eslint --fix src  && prettier --write src",
     "lint": "concurrently \"eslint src\" \"prettier src\""
   },
   "dependencies": {
