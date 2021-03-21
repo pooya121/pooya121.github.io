@@ -1,10 +1,13 @@
 .root {
   display: grid;
-  grid-template-areas:
-    'general-info general-info'
-    'key-skills skills-summary'
-    'languages skills-summary'
-    'experience experience';
   gap: 1rem;
-  grid-template-columns: 35fr 65fr;
+  grid-template-areas: 'general-info' 'skills-summary' 'key-skills' 'experience' 'languages';
+  @media (min-width: 50rem) {
+    grid-template-columns: 35fr 65fr;
+    grid-template-areas:
+      'general-info general-info'
+      'key-skills skills-summary'
+      'languages skills-summary'
+      'experience experience';
+  }
 }

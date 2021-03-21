@@ -22,7 +22,7 @@ interface GeneralInfoCardProps {
 
 const GeneralInfoCard: FC<GeneralInfoCardProps> = ({ data }) => (
   <Card className={styles.root}>
-    <div>
+    <div className={styles.content}>
       <h1 className={styles.title}>{data.fullName}</h1>
       <h2 className={styles.subTitle}>{data.jobPosition}</h2>
       <dl className={styles.descriptionList}>

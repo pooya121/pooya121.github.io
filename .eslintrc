@@ -4,6 +4,10 @@
       "version": "detect"
     }
   },
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "parser": "@typescript-eslint/parser",
   "root": true,
   "plugins": ["@typescript-eslint", "react-hooks"],

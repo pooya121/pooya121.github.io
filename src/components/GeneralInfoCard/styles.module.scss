@@ -1,14 +1,30 @@
 .root {
   display: grid;
   grid-area: general-info;
-  gap: 1rem;
-  grid-template-columns: minmax(0, 1fr) min-content;
+  @media (min-width: 40rem) {
+    gap: 1rem;
+    grid-template-columns: minmax(0, 1fr) min-content;
+  }
+}
+.content {
+  display: contents;
+  @media (min-width: 40rem) {
+    display: initial;
+  }
 }
 .image {
   min-inline-size: 170px;
   inline-size: 100%;
+  max-inline-size: 300px;
   block-size: auto;
   align-self: center;
+  margin: auto;
+  margin-block-end: 1rem;
+  grid-row-start: 3;
+  @media (min-width: 40rem) {
+    grid-row-start: auto;
+    margin-block-end: auto;
+  }
 }
 .title {
   margin: 0;

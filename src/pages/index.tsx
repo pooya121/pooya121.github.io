@@ -11,10 +11,10 @@ import styles from '@/styles/home.module.scss'
 const IndexPage: NextPage = () => (
   <Container className={styles.root}>
     <GeneralInfoCard data={data.generalInfo} />
-    <KeySkillsCard data={data.keySkills} />
-    <LanguagesCard data={data.languages} />
     <SkillsSummaryCard data={data.skillsSummary} />
+    <KeySkillsCard data={data.keySkills} />
     <ExperienceCard data={data.experience} />
+    <LanguagesCard data={data.languages} />
   </Container>
 )
 
