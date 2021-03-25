@@ -1,0 +1,79 @@
+.root {
+  list-style: none;
+}
+
+// head area
+.head {
+  display: grid;
+  @media (min-width: 40rem) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.title {
+  margin: 0;
+  font-size: 1rem;
+}
+.location {
+  color: var(--text-secondary-color);
+}
+
+.date {
+  font-size: 0.75rem;
+  color: var(--text-secondary-color);
+  margin-block-end: 0.25rem;
+}
+
+.totalTime {
+  margin-inline-start: 0.25rem;
+  display: inline-block;
+}
+
+.contentText {
+  color: var(--text-secondary-color);
+  font-size: 0.9375rem;
+}
+
+.description {
+  margin: 0;
+  margin-block-end: 0.5rem;
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  $gap: 0.125rem;
+  padding: 0;
+  margin: -$gap;
+  & > * {
+    margin: $gap;
+  }
+}
+.techStackItem {
+  list-style: none;
+  box-shadow: var(--box-shadow);
+  background-color: var(--background-color);
+  border-radius: 1000px;
+  padding-block: 0.25rem;
+  padding-inline: 0.75rem;
+  font-size: 0.6875rem;
+}
+
+.points {
+  margin-block-end: 0.625rem;
+  color: var(--text-secondary-color);
+  font-size: 0.875rem;
+  gap: 0.1875rem;
+  display: grid;
+}
+.point {
+  list-style: disc;
+}
+
+.points,
+.description {
+  strong {
+    color: var(--text-primary-color);
+  }
+}

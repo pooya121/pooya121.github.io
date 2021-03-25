@@ -2,7 +2,7 @@ import type { FC } from 'react'
 import styles from './styles.module.scss'
 import clsx from 'clsx'
 
-interface CardProps {
+export interface CardProps {
   className?: string
   title?: string
 }

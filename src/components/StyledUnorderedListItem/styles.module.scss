@@ -1,0 +1,14 @@
+.root {
+  list-style: none;
+  &::before {
+    content: '';
+    block-size: 0.25em;
+    inline-size: 0.25em;
+    display: inline-block;
+    background-color: var(--text-primary-color);
+    vertical-align: middle;
+    margin-inline-end: 0.5rem;
+    flex-shrink: 0;
+    align-self: flex-start;
+  }
+}

@@ -1,19 +1,28 @@
 import { memo } from 'react'
-import type { FC, ReactNode } from 'react'
+import type { FC } from 'react'
 import Card from '../Card'
+import ExperienceItem, { ExperienceItemProps } from '../ExperienceItem'
 import styles from './styles.module.scss'
 
 export interface ExperienceCardData {
-  items: ReactNode[]
+  items: Omit<ExperienceItemProps, 'children' | 'noEndDateText'>[]
+  noEndDateText: string
+  title: string
 }
 
-interface ExperienceCardProps {
+export interface ExperienceCardProps {
   data: ExperienceCardData
   children?: never
 }
 
 const ExperienceCard: FC<ExperienceCardProps> = ({ data }) => (
-  <Card className={styles.root}>{data.items.map((item) => item)}</Card>
+  <Card title={data.title} className={styles.root}>
+    <ul className={styles.list}>
+      {data.items.map((props) => (
+        <ExperienceItem {...props} noEndDateText={data.noEndDateText} key={props.title} />
+      ))}
+    </ul>
+  </Card>
 )
 
 export default memo(ExperienceCard)

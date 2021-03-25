@@ -8,7 +8,7 @@ export interface KeySkillsCardData {
   skills: string[]
 }
 
-interface KeySkillsCardProps {
+export interface KeySkillsCardProps {
   data: KeySkillsCardData
   children?: never
 }

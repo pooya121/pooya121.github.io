@@ -15,7 +15,7 @@ export interface GeneralInfoCardData {
   skype: string
 }
 
-interface GeneralInfoCardProps {
+export interface GeneralInfoCardProps {
   data: GeneralInfoCardData
   children?: never
 }
@@ -42,13 +42,7 @@ const GeneralInfoCard: FC<GeneralInfoCardProps> = ({ data }) => (
         </dd>
       </dl>
     </div>
-    <img
-      className={styles.image}
-      src="https://pooya121.github.io/images/pooya.jpg"
-      width="300"
-      height="300"
-      alt=""
-    />
+    <img className={styles.image} src="https://pooya121.github.io/images/pooya.jpg" width="300" height="300" alt="" />
   </Card>
 )
 

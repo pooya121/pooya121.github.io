@@ -8,7 +8,7 @@ export interface LanguagesCardData {
   languages: { name: string; status: string }[]
 }
 
-interface LanguagesCardProps {
+export interface LanguagesCardProps {
   data: LanguagesCardData
   children?: never
 }
