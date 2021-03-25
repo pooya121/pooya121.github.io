@@ -18,19 +18,13 @@
     "plugin:react-hooks/recommended",
     "prettier"
   ],
-  "ignorePatterns": [
-    ".next",
-    "node_modules",
-    "dist",
-    "coverage",
-    "out",
-    "**/*.module.scss.d.ts"
-  ],
+  "ignorePatterns": [".next", "node_modules", "dist", "coverage", "out", "**/*.module.scss.d.ts"],
   "rules": {
     "react/self-closing-comp": "warn",
     "react/jsx-boolean-value": "warn",
     "react/jsx-no-useless-fragment": "warn",
     "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off"
   }
