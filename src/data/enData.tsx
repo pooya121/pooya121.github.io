@@ -97,7 +97,7 @@ export const data: DataModel = {
           </>,
           <>
             Made improvements to <strong>developer experience</strong> such as creating project specific snippets and,
-            improving first load time in developer mode. and enabling fast refresh
+            improving first load time in developer mode. and fixing fast refresh
           </>,
           <>provided node scripts such as getting test reports. or extracting translation from API code</>,
           <>
@@ -132,7 +132,7 @@ export const data: DataModel = {
         totalTime: '1 year and 5 months',
         description: (
           <>
-            Yeganeh is an automation company providing apps like <strong>EDMS</strong> and <strong>secretariat</strong>
+            Yeganeh is a software company providing apps like <strong>EDMS</strong> and <strong>secretariat</strong>
           </>
         ),
         points: [
@@ -140,7 +140,7 @@ export const data: DataModel = {
             Worked in a scrum environment with <strong>Azure Devops</strong>
           </>,
           <>reduced the projects complexity by splitting the initial react app to smaller packages</>,
-          <>developed complex UI components like form generator and online file system UI</>,
+          <>developed complex UI components like form generator and online file system UI and tree structure</>,
         ],
         techStack: ['Typescript', 'React', 'Mobx', 'SASS', 'LESS', 'Ant-Design', 'PWA', 'REST', 'Git', 'Azure DevOps'],
       },

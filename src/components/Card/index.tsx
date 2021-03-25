@@ -1,6 +1,6 @@
 import type { FC } from 'react'
-import styles from './styles.module.scss'
 import clsx from 'clsx'
+import styles from './styles.module.scss'
 
 export interface CardProps {
   className?: string
