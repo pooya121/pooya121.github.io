@@ -2,6 +2,7 @@ import { memo } from 'react'
 import type { FC } from 'react'
 import Card from '../Card'
 import ExperienceItem, { ExperienceItemProps } from '../ExperienceItem'
+import ResetUL from '../ResetElements/ResetUL'
 import styles from './styles.module.scss'
 
 export interface ExperienceCardData {
@@ -17,11 +18,11 @@ export interface ExperienceCardProps {
 
 const ExperienceCard: FC<ExperienceCardProps> = ({ data }) => (
   <Card title={data.title} className={styles.root}>
-    <ul className={styles.list}>
+    <ResetUL className={styles.list}>
       {data.items.map((props) => (
         <ExperienceItem {...props} noEndDateText={data.noEndDateText} key={props.title} />
       ))}
-    </ul>
+    </ResetUL>
   </Card>
 )
 

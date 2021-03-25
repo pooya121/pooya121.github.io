@@ -1,7 +1,9 @@
 import { memo } from 'react'
 import type { FC, ReactNode } from 'react'
-import styles from './styles.module.scss'
 import clsx from 'clsx'
+import styles from './styles.module.scss'
+import ResetLI from '@/components/ResetElements/ResetLI'
+import ResetUL from '@/components/ResetElements/ResetUL'
 
 export interface ExperienceItemProps {
   children?: never
@@ -35,7 +37,7 @@ const ExperienceItem: FC<ExperienceItemProps> = ({
   url,
   totalTime,
 }) => (
-  <li className={styles.root}>
+  <ResetLI>
     <div className={styles.head}>
       <h3 className={styles.title}>
         {position} @{' '}
@@ -67,14 +69,14 @@ const ExperienceItem: FC<ExperienceItemProps> = ({
       ))}
     </ul>
 
-    <ul className={styles.techStack}>
+    <ResetUL className={styles.techStack}>
       {techStack.map((point, i) => (
-        <li className={styles.techStackItem} key={i}>
+        <ResetLI className={styles.techStackItem} key={i}>
           {point}
-        </li>
+        </ResetLI>
       ))}
-    </ul>
-  </li>
+    </ResetUL>
+  </ResetLI>
 )
 
 export default memo(ExperienceItem)

@@ -1,7 +1,3 @@
-.root {
-  list-style: none;
-}
-
 // head area
 .head {
   display: grid;
@@ -44,14 +40,12 @@
   display: flex;
   flex-wrap: wrap;
   $gap: 0.125rem;
-  padding: 0;
   margin: -$gap;
   & > * {
     margin: $gap;
   }
 }
 .techStackItem {
-  list-style: none;
   box-shadow: var(--box-shadow);
   background-color: var(--background-color);
   border-radius: 1000px;

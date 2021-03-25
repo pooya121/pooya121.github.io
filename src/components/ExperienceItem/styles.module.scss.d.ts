@@ -5,7 +5,6 @@ export const head: string
 export const location: string
 export const point: string
 export const points: string
-export const root: string
 export const techStack: string
 export const techStackItem: string
 export const title: string
