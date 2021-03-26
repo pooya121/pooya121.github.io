@@ -1,34 +1,37 @@
 import type { FC } from 'react'
 import { useRef, useState } from 'react'
-import { MeshProps, useFrame } from 'react-three-fiber'
+import { MeshProps, useFrame, Vector3 } from 'react-three-fiber'
 import type { Mesh } from 'three'
+import { animated, useSpring } from '@react-spring/three'
 
 const Box: FC<MeshProps> = ({ children, ...other }) => {
-  // This reference will give us direct access to the mesh
   const mesh = useRef<Mesh>()
 
-  // Set up state for the hovered and active state
   const [hovered, setHover] = useState(false)
   const [active, setActive] = useState(false)
+  const { scale, color } = useSpring({
+    color: hovered ? '#ffc0cb' : '#fff',
+    scale: active ? [1.5, 1.5, 1.5] : [1, 1, 1],
+    config: { mass: 5, tension: 400, friction: 50, precision: 0.0001 },
+  })
 
-  // Rotate mesh every frame, this is outside of React without overhead
   useFrame(() => {
     if (mesh.current) mesh.current.rotation.x = mesh.current.rotation.y += 0.01
   })
 
   return (
-    <mesh
+    <animated.mesh
       {...other}
       ref={mesh}
-      scale={active ? [1.5, 1.5, 1.5] : [1, 1, 1]}
+      scale={(scale as unknown) as Vector3}
       onClick={() => setActive(!active)}
       onPointerOver={() => setHover(true)}
       onPointerOut={() => setHover(false)}
     >
       <boxBufferGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color={hovered ? 'hotpink' : 'orange'} />
+      <animated.meshStandardMaterial color={color} />
       {children}
-    </mesh>
+    </animated.mesh>
   )
 }
 
