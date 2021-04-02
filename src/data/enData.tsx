@@ -86,8 +86,7 @@ export const data: DataModel = {
         description: (
           <>
             Techclass is an <strong>LMS</strong> startup with clients from universities like <strong>Laurea</strong> and{' '}
-            <strong>Metropolia</strong> and in a partnership with
-            <strong>Microsoft</strong>.
+            <strong>Metropolia</strong> and in a partnership with <strong>Microsoft</strong>.
           </>
         ),
         points: [
@@ -96,10 +95,10 @@ export const data: DataModel = {
             the project including <strong>edge-case scenarios</strong>
           </>,
           <>
-            Made improvements to <strong>developer experience</strong> such as creating project specific snippets and,
-            improving first load time in developer mode. and fixing fast refresh
+            Made improvements to <strong>developer experience</strong> such as creating project specific snippets and
+            improving first load time in developer mode and fixing fast refresh
           </>,
-          <>provided node scripts such as getting test reports. or extracting translation from API code</>,
+          <>Provided node scripts such as getting test reports or extracting translation from API code</>,
           <>
             Worked in an <strong>Agile-driven</strong> environment to effectively maintain project timelines and utilize
             available resources.
@@ -139,8 +138,8 @@ export const data: DataModel = {
           <>
             Worked in a scrum environment with <strong>Azure Devops</strong>
           </>,
-          <>reduced the projects complexity by splitting the initial react app to smaller packages</>,
-          <>developed complex UI components like form generator and online file system UI and tree structure</>,
+          <>Reduced the projects complexity by splitting the initial react app to smaller packages</>,
+          <>Developed complex UI components like form generator and online file system UI and tree structure</>,
         ],
         techStack: ['Typescript', 'React', 'Mobx', 'SASS', 'LESS', 'Ant-Design', 'PWA', 'REST', 'Git', 'Azure DevOps'],
       },
@@ -157,14 +156,14 @@ export const data: DataModel = {
         description: 'Barayand is a Software Company focusing on developing websites.',
         points: [
           <>
-            Developed UIs of more than <strong>20</strong> websites. most of them were based on Photoshop files
+            Developed UIs of more than <strong>20</strong> websites. Most of them were based on Photoshop files
           </>,
           <>
             Updated the structure from using basic <strong>CSS</strong> to use <strong>SASS</strong> and{' '}
             <strong>PostCSS</strong>
           </>,
           <>
-            Improved javascript performance. stopped using jQuery and used vanilla javascript to improve the bundle
+            Improved javascript performance. Stopped using jQuery and used vanilla javascript to improve the bundle
             size. used tools like <strong>webpack</strong> and <strong>uglify.js</strong> to improve the first time to
             interactive
           </>,
