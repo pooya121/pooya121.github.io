@@ -10,4 +10,8 @@ export interface DataModel {
   languages: LanguagesCardData
   skillsSummary: SkillsSummaryCardData
   experience: ExperienceCardData
+  head: {
+    title: string
+    description: string
+  }
 }

@@ -1,6 +1,10 @@
 import { DataModel } from './type'
 
 export const data: DataModel = {
+  head: {
+    title: 'Pooya Badiee',
+    description: 'Pooya Badiee, a Front-end developer',
+  },
   generalInfo: {
     fullName: 'Pooya Badiee',
     formattedMobile: '+98 933 100 5618',
