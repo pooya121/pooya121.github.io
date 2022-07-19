@@ -3,7 +3,7 @@ import { DataModel } from './type'
 export const data: DataModel = {
   head: {
     title: 'Pooya Badiee',
-    description: 'Pooya Badiee, a Front-end developer',
+    description: 'Pooya Badiee, a Full-stack developer',
   },
   generalInfo: {
     fullName: 'Pooya Badiee',
@@ -39,6 +39,8 @@ export const data: DataModel = {
       'Git',
       'Mobx',
       'PM2',
+      'Shopify',
+      'Node.js',
     ],
     title: 'Key skills',
   },
@@ -46,7 +48,7 @@ export const data: DataModel = {
     title: 'Languages',
     languages: [
       { name: 'English', status: 'advance' },
-      { name: 'German', status: 'learning (basic)' },
+      // { name: 'German', status: 'learning (basic)' },
       { name: 'Farsi', status: 'native' },
     ],
   },
@@ -55,7 +57,7 @@ export const data: DataModel = {
     points: [
       <>
         <strong>3</strong> years of experience in <strong>UI/UX</strong> developing web applications and interactive
-        software products using <strong> HTML, CSS, TypeScript, JavaScript</strong> and <strong>React</strong>
+        software products using <strong> HTML, CSS, TypeScript, JavaScript</strong>, and <strong>React</strong>
       </>,
       <>
         Experienced in developing <strong>Responsive</strong> and <strong>mobile-friendly</strong> web apps with{' '}
@@ -65,11 +67,11 @@ export const data: DataModel = {
         Hands-on experience with <strong>RESTful</strong> and <strong>GraphQL</strong> web services
       </>,
       <>
-        Experience and good understanding of <strong>Unit</strong> and <strong>E2E</strong> testing
+        Experience and a good understanding of <strong>Unit</strong> and <strong>E2E</strong> testing
       </>,
-      <>Good Team work skills. Being able to work well as part of a team</>,
+      <>Good Teamwork skills. Being able to work well as part of a team</>,
       <>
-        Experience with server side and static rendering in <strong>Next.js</strong>
+        Experience with server-side and static rendering in <strong>Next.js</strong>
       </>,
       <>
         Experience writing <strong>utility scripts</strong> with <strong>Node.js</strong>
@@ -81,11 +83,60 @@ export const data: DataModel = {
     noEndDateText: 'Present',
     items: [
       {
+        title: 'Asredanesh',
+        position: 'Full-stack developer',
+        startDate: 'August 2021',
+        ISOStartDate: '2021-07-31T19:30:00.000Z',
+        location: 'Tehran - Iran, Remote to Canada',
+        url: 'https://asredanesh.com/',
+        description: (
+          <>
+            Asredanesh is an Iranian IT company that works on different technology-related solutions. While working
+            here, I was assigned to work with{' '}
+            <a href="https://www.sundays-company.com/" rel="noreferrer" target="_blank">
+              Sundays Company
+            </a>{' '}
+            as my primary responsibility.
+            <br />
+            Sundays Company is a direct-to-consumer furniture company offering beautiful and unique furniture, it
+            primarily focuses on its <strong>E-commerce</strong> that runs on <strong>Shopify</strong> as the main sale
+            channel.
+          </>
+        ),
+        points: [
+          <>
+            Modernized the development workflow from jQuery to more efficient tools like <strong>Typescript</strong>,{' '}
+            <strong>Preact</strong>, and <strong>Web Components</strong>.
+          </>,
+          <>
+            Improved Tooling by replacing the discontinued build with tools such as <strong>Rollup</strong>,{' '}
+            <strong>SWC</strong> and Additional improvements that made the build times as high as <strong>10x</strong>{' '}
+            faster.
+          </>,
+          <>Worked with different external teams to integrate the existing stores with other services</>,
+          <>
+            Implement services with <strong>Node.js</strong> that interact with the Shopify API, Such as:
+            <ul>
+              <li>
+                A service that generates a pdf with react-pdf that pull data from <strong>Shopify</strong>
+              </li>
+              <li>Implementing a service that copies data from one store to another when data in one changes</li>
+              <li>
+                A service that calculates the ETA of the order and pushes the data to <strong>Shopify</strong> API{' '}
+              </li>
+            </ul>
+          </>,
+        ],
+        techStack: ['Typescript', 'React', 'Preact', 'Shopify', 'SASS', 'Node.js'],
+      },
+      {
         title: 'Techclass',
         position: 'React Developer',
         startDate: 'March 2020',
         ISOStartDate: '2020-02-29T20:30:00.000Z',
-        location: 'Remote - Finland',
+        endDate: 'August 2021',
+        ISOEndDate: '2021-07-31T19:30:00.000Z',
+        location: 'Tehran - Iran, Remote to Finland',
         url: 'https://techclass.com/',
         description: (
           <>
@@ -118,7 +169,6 @@ export const data: DataModel = {
           'React-testing-library',
           'Material-UI',
           'Azure DevOps',
-          'Git',
           'Docker',
           'Figma',
         ],
@@ -145,7 +195,7 @@ export const data: DataModel = {
           <>Reduced the projects complexity by splitting the initial react app to smaller packages</>,
           <>Developed complex UI components like form generator and online file system UI and tree structure</>,
         ],
-        techStack: ['Typescript', 'React', 'Mobx', 'SASS', 'LESS', 'Ant-Design', 'PWA', 'REST', 'Git', 'Azure DevOps'],
+        techStack: ['Typescript', 'React', 'Mobx', 'SASS', 'LESS', 'Ant-Design', 'PWA', 'REST', 'Azure DevOps'],
       },
       {
         title: 'Barayand',

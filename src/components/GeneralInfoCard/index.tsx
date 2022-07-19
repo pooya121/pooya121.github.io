@@ -42,7 +42,7 @@ const GeneralInfoCard: FC<GeneralInfoCardProps> = ({ data }) => (
         </dd>
       </dl>
     </div>
-    <img className={styles.image} src="https://pooya121.github.io/images/pooya.jpg" width="300" height="300" alt="" />
+    <img className={styles.image} src="/pooya.jpg" width="300" height="300" alt="Pooya" />
   </Card>
 )
 
